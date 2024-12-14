@@ -1,0 +1,48 @@
+.holder{
+display: flex;
+flex-wrap: wrap;
+width: 800px;
+border: 2px solid black;
+height: 300px;
+}
+
+.item{
+    height: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.item:nth-child(1){
+    background-color:red ;
+    width: 50%;
+    order: 0;
+    
+}
+
+.item:nth-child(2){
+     background-color:skyblue ;
+     order: 7;
+     width: 33.3%;
+
+}
+
+.item:nth-child(3){
+     background-color:purple ;
+       order: 6;
+        width: 33.3%;
+}
+
+.item:nth-child(4){
+     background-color:green ;
+       order: 10;
+        width: 33.3%;
+}
+
+.item:nth-child(5){
+     background-color:orange ;
+     width: 50%;
+       order: 1;
+        
+}
+
